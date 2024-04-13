@@ -25,7 +25,7 @@ syn keyword mojoConditional	elif else if
 syn keyword mojoRepeat		for while
 syn keyword mojoOperator	and in is not or
 syn keyword mojoException	except finally raise try
-syn keyword mojoInclude		from import self
+syn keyword mojoInclude		from import self Self
 syn keyword mojoAsync		async await
 syn keyword mojoModifier		raises capturing escaping
 
@@ -204,8 +204,8 @@ syn sync match mojoSync grouphere NONE "^\%(def\|class\)\s\+\h\w*\s*[(:]"
 " The default highlight links.  Can be overridden later.
 hi def link mojoStatement		Statement
 hi def link mojoConditional		Conditional
-hi def link mojoRepeat			Repeat
-hi def link mojoOperator		Operator
+hi def link mojoRepeat			Statement
+hi def link mojoOperator		Statement
 hi def link mojoException		Exception
 hi def link mojoInclude			Include
 hi def link mojoAsync			Statement
