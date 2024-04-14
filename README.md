@@ -1,10 +1,1 @@
-# Mojo :fire: Language Syntax Highlighting for Vim
-
-![alt text](syntax-example.png "Highlight Example")
-
-How to install
---------------
-Write this line in your vimrc:
-```
-Plug 'ovikrai/mojo-syntax'
-```
+This branch contains altered syntax highlighting according to the personal preferences of the author.
